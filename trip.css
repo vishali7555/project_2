@@ -1,0 +1,203 @@
+h1 {
+    font-family: sans-serif;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 50px;
+    max-width: 600px;
+    position: relative;
+    font-style: Arial;
+  }
+  h1:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #191970;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #191970;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+  body
+  {
+      background-color: rgb(133, 127, 127);
+  }
+  .container
+  {
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 100px;
+    width: 1100px;
+    height:500px;
+    overflow-y: auto;
+  }
+
+  .parent
+{
+    border: 2px solid tomato;
+    height: 300px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 400px;
+    box-shadow: 7px 6px rgb(211, 204, 204);
+    position: relative;
+    
+}
+
+
+.strike
+{
+    color:  tomato;
+    text-decoration: line-through;
+    text-decoration-color:solid red ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trip
+{
+    font-family: arial;
+    font-stretch: ultra-condensed;
+    color: tomato;
+    font-size: 30px;
+
+}
+
+input.checkbox
+{
+    font-size: 70px;
+    margin-left: -40px;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.pending
+{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.plus
+{
+    border: 0px solid;
+    background-color: crimson;
+    height: 33px;
+    width: 33px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    bottom: -120px;
+    right: -40px;
+    
+}
+
+.home
+{
+    border: 0px solid;
+    background-color: crimson;
+    height: 33px;
+    width: 33px;
+    border-radius: 25px;
+    margin-top: 0px;
+    margin-left: 450px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.text1
+{
+    font-family: arial;
+    font-stretch: ultra-condensed;
+    margin-top: -34px;
+    margin-left: 500px;
+    display: block;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.area{
+
+    border-radius: 3px;
+    border: 1px solid tomato;
+    width: 300px;
+    height: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+.button
+{
+    position: absolute;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 41px;
+    font-size: 20px;
+    border-color: snow;
+    text-align: center;
+    margin-left: -30px;
+
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    position: ;
+  }
+
+
+  .popup {
+    border: 2px solid tomato;
+    margin: 200px  auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 5px;
+    height:100px;
+    width: 350px;
+    position: relative;
+    transition: all 5s ease-in-out;
+    text-align: center;
+  }
+
+ .newitem{
+    margin: -10px  auto;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: tomato;
+ }
