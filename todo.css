@@ -1,0 +1,71 @@
+.pending
+{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+area{
+
+    border-radius: 7px;
+    position: absolute;
+    border: 1px solid orangered;
+    height: 33px;
+    width: 250px;
+    top: 63px;
+    left: 70px;
+    text-decoration: none;
+
+}
+
+.button
+{
+    position: absolute;
+    top: 107px;
+    left: 66ox;
+    left: 156px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 41px;
+    font-size: 20px;
+    border-color: snow;
+}
+
+
+.background {
+    background-image: url(index.html);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  // Background Blur using backdrop-filter
+  .blur {
+    background: rgba(255, 255, 255, 0.2); // Make sure this color has an opacity of less than 1
+    backdrop-filter: blur(8px); // This be the blur
+    height: 100vh;
+    width: 50%;
+  }
+
+
+  .addnewlist {
+    margin: 0px 0px 0px 0px;
+    height: 300px;
+    width: 400px; 
+    background: white;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    border: 2px solid tomato;
+  }
+
+
+  .addnewlist:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class='main'>
+    <div class='p'>
+       <b style="font-family:Arial, Helvetica, sans-serif">Tasks</b> <span class='text'> Lists </span></div>
+    <div class='plus'>
+        <a style="text-decoration: none; color: white;" href="#addnew" >+</a> 
+    </div>
+
+    <div class='listtext'> Add List</div> 
+    
+       <br> <br>
+       <div class='parent child1'>
+           <br>
+           <span class='trip'> <a href="./trip.html" class="tripp"> Trip to Paris </a> </span> <hr> <br>
+           <span class='strike'>Completed Task</span> <br> <br> 
+           <input class='checkbox' type="checkbox" name="task1" id="task1">
+           <label class="pending" for="task1">Pending Task</label>
+       </div>  
+       <div class='parent child2'>
+           <br>
+        <span class='trip'> My Todo list </span> <hr> <br>
+        <span class='strike'>Completed Task</span> <br> <br>
+        <input class="checkbox" type="checkbox" name="task2" id="task2">
+        <label class="pending" for="task1">Pending Task</label>
+        </div>
+    <div class='parent child3'>
+        <br>
+        <span class='trip'> My Todo list </span> <hr> <br>
+        <span class='strike'>Completed Task</span> <br> <br>
+        <input class="checkbox" type="checkbox" name="task3" id="task2"> 
+        <label class="pending" for="task1">Pending Task</label>
+    </div>   
+
+    <div id="addnew" class="overlay">
+        <div class="popup">
+            <p class="newlist">Add New List</p> <br> <br>
+            <textarea class="area" name="" id="" cols="30" rows="10"></textarea> <br>
+             <button class="button "type="submit">ADD</button>
+             <a class="close" href="#">&times;</a>
+        </div>
+   
+
+  </div>
+
+
+</body>
+</html>
