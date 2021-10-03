@@ -96,7 +96,7 @@ body
 {
     position: absolute;
     width: 160px;
-    border-top: 4px solid red;
+    border-top: 3px solid red;
     left: 347px;
     top: 50%;
 }
@@ -104,7 +104,7 @@ body
 .strike2
 {
     width: 160px;
-    border-top: 4px solid red;
+    border-top: 3px solid red;
     left: 673px;
     top: 362px;
     position: absolute;
@@ -113,7 +113,7 @@ body
 .strike3
 {
     width: 160px;
-    border-top: 4px solid red;
+    border-top: 3px solid red;
     left: 1000px;
     top: 362px;
     position: absolute;
