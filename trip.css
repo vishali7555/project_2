@@ -186,7 +186,6 @@ input.checkbox
   .overlay:target {
     visibility: visible;
     opacity: 1;
-    position: ;
   }
 
 
