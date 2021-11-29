@@ -1,35 +1,60 @@
-body
+h1 {
+    font-family: sans-serif;
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+    font-style: Arial;
+  }
+ 
+  body
 {
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: rgb(199, 187, 187);
+  background-color:rgb(223, 221, 221);
 }
-.p
+
+
+.home
 {
-    font-size: 60px;
-    margin-top: 50px;
-    margin-left: 200px;
+    border: 0px solid;
+    background-color: crimson;
+    height: 33px;
+    width: 33px;
+    border-radius: 25px;
+    margin-top: -120px;
+    margin-left: -70px;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+
+.text1
+{
+    font-family: Arial;
+    margin-top: 10px;
+    margin-left: -2px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .main{
 
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: white;
+    margin-top: 100px;
+    margin-left: 560px;
+    background-color : white;
     padding: 100px;
-    width: 1250px;
-    height:500px;
-    overflow-y: auto;
-   
+    width: 130px;
+    height:360px;
+    padding-top: 60px;
 }
 
 .text
 {
-    font-family: arial;
+    font-family: sans-serif;
     font-stretch: ultra-condensed;
     color: darkgray;
    
 }
+
+
 
 
 .plus
@@ -39,57 +64,37 @@ body
     height: 33px;
     width: 33px;
     border-radius: 25px;
-    margin-top: -40px;
-    margin-left: 850px;
+    margin-top: -35px;
+    margin-left: 150px;
     text-align: center;
     font-weight: bolder;
     font-size: 30px;
     color: white;
 }
 
-.listtext
-{
-    font-family: arial;
-    font-stretch: ultra-condensed;
-    color: darkgray;
-    margin-top: -35px;
-    margin-left: 900px;
-    display: block;
-    font-size: 30px;
-}
-
-.parent
+  .parent
 {
     border: 2px solid tomato;
-    height: 300px;
-    width: 220px;
+    height: 350px;
+    width: 250px;
     display: inline-block;
     border-radius: 10px;
     text-align: center;
-    margin-left: 200px;
+    margin-left: -60px;
     box-shadow: 7px 6px rgb(211, 204, 204);
+    position: relative;
+    
 }
 
-.child2
-{
-    margin-left: 100px;
-}
-
-.child3
-{
-    margin-left: 100px ;
-}
 
 .strike
 {
     color:  tomato;
-    /* text-decoration: 4px line-through;
-    text-decoration-color: red ; */
+   /* text-decoration: line-through;
+    text-decoration-color:solid red ; */
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
 }
 
 .strike1
@@ -97,26 +102,8 @@ body
     position: absolute;
     width: 160px;
     border-top: 3px solid red;
-    left: 347px;
-    top: 50%;
-}
-
-.strike2
-{
-    width: 160px;
-    border-top: 3px solid red;
-    left: 673px;
-    top: 362px;
-    position: absolute;
-}
-
-.strike3
-{
-    width: 160px;
-    border-top: 3px solid red;
-    left: 1000px;
-    top: 362px;
-    position: absolute;
+    left: 40px;
+    top:101px;
 }
 
 .trip
@@ -125,22 +112,16 @@ body
     font-stretch: ultra-condensed;
     color: tomato;
     font-size: 30px;
-    text-decoration: none;
+
 }
-.tripp
-{
-    font-family: arial;
-    font-stretch: ultra-condensed;
-    color: tomato;
-    font-size: 30px;
-    text-decoration: none; 
-}
+
 input.checkbox
 {
     font-size: 70px;
     margin-left: -40px;
     width: 20px;
     height: 20px;
+    font-weight: bold;
 }
 
 .pending
@@ -150,7 +131,23 @@ input.checkbox
     font-size: 20px;
 }
 
-
+.plus
+{
+    border: 0px solid;
+    background-color: crimson;
+    height: 33px;
+    width: 33px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    bottom: -160px;
+    right: -20px;
+    
+}
 
 
 .area{
@@ -209,11 +206,10 @@ input.checkbox
     text-align: center;
   }
 
- .newlist{
+ .newitem{
     margin: -10px  auto;
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: tomato;
  }
-
